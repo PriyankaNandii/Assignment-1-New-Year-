@@ -1,0 +1,168 @@
+*{
+    margin: 16px;
+    box-sizing: border-box;
+}
+
+ .img{
+     background-image:  linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./images/Banner\ Image.png');
+    background-size: cover;
+    background-position:center;
+    max-width: 1320px;
+    max-height: 600px;
+    border-radius: 16px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.home-title{
+
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;  
+    
+}
+.home-title p{
+    color: #ffffff;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    align-items: center;
+
+    
+}
+.home-title h1{
+    color: #ffffff;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    align-items: center; 
+}
+
+.sale h5{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-weight: 700;
+margin-top: 60px;
+}
+.sale p{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 50px;
+}
+.sale h6{
+    color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+} 
+.sale-img{
+display: block;
+margin: auto;
+}
+
+.party {
+    background-image:  linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./images/Vectorrr.png');
+    background-size: cover;
+    background-position:center;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+    width: 1320px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+
+}
+.party-title h6{
+    color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+letter-spacing: 7.04px;
+margin: 0;
+margin-top: 40px;
+
+    
+}
+
+.party-title p {
+    color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+width: 80%;
+margin-top: 30px;
+
+}
+.party-img2{
+    height: 400px;    
+}
+.party-place{
+    padding: 130px;
+ background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+ margin: 0 auto;
+    position: relative;
+    margin-top: 70px;
+    width: 1320px;
+    height: 482px;
+
+}
+.party-place p span{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+text-transform: capitalize;
+
+}
+
+.party-place p{
+    color: #070211;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+text-transform: capitalize;
+text-align: center;
+}
+.party-place button{
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+background: #F00;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 10px;
+font-weight: 700;
+margin: auto;
+
+
+}
+
+    
