@@ -2,8 +2,9 @@
     margin: 12px;
     box-sizing: border-box;
 }
-
- .img{
+    /* home section */
+ 
+    .img{
      background-image:  linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./images/Banner\ Image.png');
     background-size: cover;
     background-position:center;
@@ -40,6 +41,8 @@
     font-weight: 900;
     align-items: center; 
 }
+    
+/* sale section */
 
 .sale h5{
     color: #F00;
@@ -74,6 +77,8 @@
     margin: auto;
 }
 
+/* party section */
+
 .party {
     background-image:  linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./images/Vectorrr.png');
     background-size: cover;
@@ -96,9 +101,7 @@
     font-weight: 900;
     letter-spacing: 7.04px;
     margin: 0;
-    margin-top: 40px;
-
-    
+    margin-top: 40px;   
 }
 
 .party-title p {
@@ -124,6 +127,9 @@
 .party-img2{
     height: 400px;    
 }
+
+/* party place section */
+
 .party-place{
     padding: 130px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
@@ -172,6 +178,7 @@
     margin-top: 40px;
     border: none;
 }
+  /* offer section */
 
 .offer{
     display: flex;
@@ -179,14 +186,14 @@
     justify-content: space-between;
     width: 100%;
     max-width: 1410px;
-    margin-top: 70px;
+    margin-top: 50px;
 }
  .part-1 h6{
     color: #F00;
     font-family: Inter;
     font-size: 21px;
     font-weight: 500;
-    margin-left: 50px;
+    margin-left: 54px;
  }
  .part-1 h4{
     color: #070211;
@@ -194,7 +201,7 @@
     font-size: 38px;
     font-weight: 900;
     text-transform: capitalize;
-    margin-left: 45px;
+    margin-left: 50px;
  }
 .part-1 p{
     color: rgba(7, 2, 17, 0.60);
@@ -202,9 +209,8 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
-    margin-left: 50px;
-    /* text-align: justify; */
-      
+    margin-left: 52px;
+    /* text-align: justify; */     
 }
 
 .part-2 img{
@@ -216,8 +222,7 @@
     padding: 30px;
     justify-content: center;
     align-items: center;
-    /* margin-left: 90px; */
-    
+    /* margin-left: 90px; */  
   
 }
 .part-3 h5{
@@ -226,9 +231,7 @@
     font-size: 38px;
     font-weight: 700;
     margin-left: 120px;
-    margin-top: 70px;
-
-    
+    margin-top: 70px;   
 }
 .part-3 p{
     color: rgba(7, 2, 17, 0.60);
@@ -242,6 +245,70 @@
  .offer-img{
     margin-left: 110px;
  }
+
+   /* holiday section*/
+
+ .holiday-sale{
+    margin-top: 70px;
+   }
+ .holiday-sale-text h6{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+ }
+ .holiday-sale-text h3{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 900;
+ }
+
+ .holiday-img{
+    background-image: url(./images/Rectangle\ 2.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-top: 61px;
+ }
+
+ .holiday-sale-text h3 span{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 900;
+ }
+ .holiday-sale-text p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+ }
+ .holiday-img-details{
+    display: flex;
+    position: relative;
+ }
+ .box-img{
+    position: relative;
+ }
+ .lady-img{
+    position: absolute;
+    padding-left: 905px;
+    width: 120px;
+    margin-top: 43px;
+ }
+ .discount-img{
+    position: absolute;
+    margin-top: 90px;
+    padding-left: 750px;
+ }
+
+ /* portfolio section */
 
 .portfolio{
     margin-top: 80px;
@@ -291,6 +358,9 @@
     opacity: .6;
 
 }
+
+/* newsletter section */
+
 .newsletter{
     padding: 20px;
     border-radius: 16px;
@@ -340,6 +410,8 @@
     margin-left: -70px ; 
     
 }
+/* footer section */
+
 .footer{
     margin: 0 auto;
     margin-top: 90px;
